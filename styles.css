@@ -108,10 +108,16 @@ header {
 .menu li a:hover:before, .menu li a:focus:before, .menu li a:active:before{
     transform: scaleX(1);
 }
-    /*end of header animation*/
+/*end of header animation*/
 
 /*main content styles*/
 
+.shadow-wrapper {
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    height: 45px;
+    position: fixed;
+}
 
 /*footer styles*/
 footer {
