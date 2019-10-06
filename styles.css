@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Turret+Road:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -14,7 +18,7 @@ main .container {
 h1, h2, h3, h4, h5, h6, .menu li a {
     font-family: 'Turret Road', cursive;
     font-weight: bold;
-    margin-top: 0;
+    margin: 0;
 }
 
 p {
@@ -26,12 +30,29 @@ ul, ol {
     padding: 0;
 }
 
+/*welcome page styles*/
+
+.welcome-page {
+    position: relative;
+    height: 100vh;
+}
+
+.welcome-page h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    width: 100%;
+    text-align: center;
+}
+
 /*header styles*/
 
 header {
     background-color: orange;
     position: sticky;
-    top: 10px;
+    top: 0;
     width: 100%;
 }
 
@@ -43,7 +64,7 @@ header {
 
 .menu li a{
     color: white;
-    padding: 25px;
+    padding: 30px;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
