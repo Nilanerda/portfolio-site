@@ -30,6 +30,9 @@ ul, ol {
 
 header {
     background-color: orange;
+    position: sticky;
+    top: 10px;
+    width: 100%;
 }
 
 .menu {
@@ -79,13 +82,14 @@ header {
 }
     /*end of header animation*/
 
+/*main content styles*/
+
+
 /*footer styles*/
 footer {
     background-color: lightgreen;
     padding:  40px 0;
     text-align: center;
     font-family: 'Turret Road', cursive;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
