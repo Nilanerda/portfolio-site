@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Turret+Road:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
+/*General setting*/
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -47,7 +49,7 @@ ul, ol {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5em;
+    font-size: 14vh;
     width: 100%;
     text-align: center;
 }
