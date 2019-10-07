@@ -101,11 +101,11 @@ header {
     transition-timing-function: ease-out;
 }
 
-.menu li a:hover, .menu li a:focus, .menu li a:active {
+.menu li a:hover, .menu li a:focus, .menu li a:active, .menu li a.active {
     color: orange;
 }
 
-.menu li a:hover:before, .menu li a:focus:before, .menu li a:active:before{
+.menu li a:hover:before, .menu li a:focus:before, .menu li a:active:before, .menu li a.active:before{
     transform: scaleX(1);
 }
 /*end of header animation*/
