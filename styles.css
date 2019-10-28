@@ -267,9 +267,15 @@ header {
     position: fixed;
 }
 
+/*Contacts styles*/
+
+.contact-content {
+    background-color: #BEB7BE;
+}
+
 /*footer styles*/
 footer {
-    background-color: lightgreen;
+    background-color: #81777F;
     padding:  40px 0;
     text-align: center;
     font-family: 'Turret Road', cursive;
