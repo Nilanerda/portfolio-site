@@ -205,7 +205,7 @@ ul, ol {
 /*header styles*/
 
 header {
-    background-color: orange;
+    background-color: #99bda6;
     position: sticky;
     top: 0;
     width: 100%;
@@ -250,7 +250,7 @@ header {
 }
 
 .menu li a:hover, .menu li a:focus, .menu li a:active, .menu li a.active {
-    color: orange;
+    color: #658c72;
 }
 
 .menu li a:hover:before, .menu li a:focus:before, .menu li a:active:before, .menu li a.active:before{
@@ -267,15 +267,9 @@ header {
     position: fixed;
 }
 
-/*Contacts styles*/
-
-.contact-content {
-    background-color: #BEB7BE;
-}
-
 /*footer styles*/
 footer {
-    background-color: #81777F;
+    background-color: #e6efe8;
     padding:  40px 0;
     text-align: center;
     font-family: 'Turret Road', cursive;
