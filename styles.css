@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Turret+Road:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
-/*General setting*/
+/*General settings*/
 
 ::-webkit-scrollbar {
     display: none;
@@ -54,7 +54,7 @@ ul, ol {
     text-align: center;
 }
 
-/*bottom center animation*/
+/*welcome page bottom center animation*/
 
 .bottom-rect-animation {
     position: absolute;
@@ -78,7 +78,7 @@ ul, ol {
     position: absolute;
     display: block;
     list-style: none;
-    animation: animate 5s linear infinite;
+    animation: squares 5s linear infinite;
     bottom: -70px;
     z-index: -1;
 }
@@ -130,7 +130,7 @@ ul, ol {
 /*    animation-delay: 3s;*/
 /*}*/
 
-@keyframes animate {
+@keyframes squares {
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
