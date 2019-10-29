@@ -26,3 +26,16 @@ function animateNavTabs() {
         }
     }
 }
+function scrollOnClick(elementId) {
+    let sectionTop = document.getElementById(elementId).offsetTop;
+    let headerHeight = document.getElementById('header').getBoundingClientRect().height;
+    window.scrollTo({top: sectionTop - headerHeight, behavior: "smooth"})
+}
+
+let navLinks = document.querySelectorAll('a[href*="#nav"]');
+for (let navlink of navLinks) {
+    navlink.addEventListener('click', function (e) {
+        e.preventDefault();
+        scrollOnClick(navlink.hash.substr(1));
+    })
+}
