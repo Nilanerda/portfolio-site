@@ -11,6 +11,7 @@
 html {
     overflow: auto;
     scrollbar-width: none;
+    font-size: 18px;
 }
 
 .container {
@@ -30,6 +31,7 @@ h1, h2, h3, h4, h5, h6, .menu li a {
 
 p {
     font-family: 'Abel', sans-serif;
+    line-height: 1.4rem;
 }
 
 ul, ol {
@@ -224,6 +226,7 @@ header {
     text-transform: uppercase;
     display: block;
     position: relative;
+    font-size: 0.8889rem;
 
     /*header animation*/
 
@@ -265,6 +268,10 @@ header {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(255, 255, 255));
     height: 45px;
     position: fixed;
+}
+
+.main-content {
+    min-height: 100vh;
 }
 
 /*footer styles*/
